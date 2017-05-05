@@ -19,7 +19,7 @@ echo ${IPADDR} ubuntu.localhost >> /etc/hosts
 
 apt-get -y install git vim
 
-# Install and confiugre Apache
+# Install and configure Apache
 
 apt-get -y install apache2
 
@@ -51,7 +51,7 @@ a2enmod rewrite
 service apache2 reload
 update-rc.d apache2 enable
 
-# Install and confiugre PHP
+# Install and configure PHP
 
 apt-get -y install php5 php5-curl
 
